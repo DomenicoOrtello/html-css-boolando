@@ -87,16 +87,23 @@ img{
     display: none;
 }
 
+.img-fluid-second{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
 .col:hover .heart{
     display: block;
 }
 
 div.col:hover .img-fluid{
-    display: none;
+    visibility: hidden;
 }
 
 div.col:hover .img-fluid-second{
-    display: block;
+    visibility: visible;
 }
 
 /*---------
