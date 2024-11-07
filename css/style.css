@@ -6,3 +6,50 @@
     padding: 0;
     box-sizing: border-box;
 }
+/*---------
+   /RESET
+---------*/
+/*---------
+   HEADER
+---------*/
+header{
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    padding: 0.8rem 0;
+    color: white;
+    background-color: #ff6900; 
+}
+
+header nav li{
+    margin-right: 0.8rem;
+}
+
+header nav{
+    padding: 0.8rem 0;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.flex-sb{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+div.Logo > img{
+    height: 40px;
+}
+
+ul{
+    list-style-type: none;
+}
